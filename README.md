@@ -2,7 +2,10 @@ The problem with most Wireguard tools is they let you manage multiple "clients" 
 
 You can select your VPN gateway and connect or disconnect as needed.
 
-Note make sure you add yourself to visudo your_username ALL=(ALL) NOPASSWD: /usr/bin/wg, /usr/bin/wg-quick to avoid any issues.  
+Note make sure you add yourself to visudo to avoid any issues:
+```
+your_username ALL=(ALL) NOPASSWD: /usr/bin/wg, /usr/bin/wg-quick 
+``` 
 
 And finally make sure your files in /etc/wireguard have names less than 15 characters wg0name1.conf wg0name2.conf...
 
