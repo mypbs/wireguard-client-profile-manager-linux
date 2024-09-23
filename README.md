@@ -16,3 +16,5 @@ CLI Screenshot
 GUI (Python) Screenshot
 
 ![guivpn](https://github.com/user-attachments/assets/05e6f2cd-b296-4c00-afb3-f7a9fc86d328)
+
+For the GUI version simply create a desktop launcher short cut to the PY file and you now have a one click VPN app.
